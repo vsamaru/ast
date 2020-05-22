@@ -1,0 +1,65 @@
+* {
+  color: #333;
+}
+.App {
+  font-family: sans-serif;
+}
+
+.object-single {
+  display: flex;
+  flex-direction: row;
+}
+
+.h-spacer-l {
+  display: inline-block;
+  width: 0.125rem;
+  flex: 0 0 0.125rem;
+}
+
+.h-spacer-xl {
+  display: inline-block;
+  width: 0.25rem;
+  flex: 0 0 0.25rem;
+}
+
+.h-spacer-xxl {
+  display: inline-block;
+  width: 1rem;
+  flex: 0 0 1rem;
+}
+
+.v-spacer-l {
+  display: block;
+  height: 0.125rem;
+  flex: 0 0 0.125rem;
+}
+
+.v-spacer-xl {
+  display: block;
+  height: 0.25rem;
+  flex: 0 0 0.25rem;
+}
+
+.object-multi {
+  display: flex;
+  flex-direction: column;
+}
+
+.object-multi .indent {
+  display: flex;
+  flex-direction: row;
+}
+
+.literal {
+  display: inline-block;
+  padding: 0.125rem;
+}
+
+.pill {
+  display: inline-block;
+  padding: 0.125rem 0.25rem;
+  background-color: #fefefe;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  margin: 0 0.25rem 0.25rem 0;
+}
